@@ -1,0 +1,281 @@
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git clone https://github.com/SivaDev1038/testing-jira-github.git
+Cloning into 'testing-jira-github'...
+warning: You appear to have cloned an empty repository.
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git remote -v
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git clone https://github.com/SivaDev1038/lamda.git
+Cloning into 'lamda'...
+warning: You appear to have cloned an empty repository.
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git clone https://github.com/natterstefan/react-component-library-lerna.git
+Cloning into 'react-component-library-lerna'...
+remote: Enumerating objects: 259, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 259 (delta 6), reused 0 (delta 0), pack-reused 247
+Receiving objects: 100% (259/259), 427.41 KiB | 3.88 MiB/s, done.
+Resolving deltas: 100% (122/122), done.
+ops-cybereye@worker01:~/Desktop/test-github-repo$ ls
+lamda  react-component-library-lerna  testing-jira-github
+ops-cybereye@worker01:~/Desktop/test-github-repo$ cd testing-jira-github/
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ls
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ cd ..
+ops-cybereye@worker01:~/Desktop/test-github-repo$ cd react-component-library-lerna/
+ops-cybereye@worker01:~/Desktop/test-github-repo/react-component-library-lerna$ ls
+babel.config.js  jest.config.js  LICENCE       packages   templates
+CHANGES.md       jest.setup.js   localdev      README.md  webpack.config.js
+CONTRIBUTING.md  lerna.json      package.json  scripts    yarn.lock
+ops-cybereye@worker01:~/Desktop/test-github-repo/react-component-library-lerna$ cd ..
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git remove -v
+git: 'remove' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git remote -v
+ops-cybereye@worker01:~/Desktop/test-github-repo$ cd ..
+ops-cybereye@worker01:~/Desktop$ git remote -v
+ops-cybereye@worker01:~/Desktop$ cd ..
+ops-cybereye@worker01:~$ git remote -v
+ops-cybereye@worker01:~$ cd Desktop/test-github-repo/
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git remote -v
+ops-cybereye@worker01:~/Desktop/test-github-repo$ cd react-component-library-lerna/
+ops-cybereye@worker01:~/Desktop/test-github-repo/react-component-library-lerna$ git remote -v
+origin	https://github.com/natterstefan/react-component-library-lerna.git (fetch)
+origin	https://github.com/natterstefan/react-component-library-lerna.git (push)
+ops-cybereye@worker01:~/Desktop/test-github-repo/react-component-library-lerna$ cd ..
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git init
+Initialized empty Git repository in /home/ops-cybereye/Desktop/test-github-repo/.git/
+ops-cybereye@worker01:~/Desktop/test-github-repo$ ls
+lamda  react-component-library-lerna  testing-jira-github
+ops-cybereye@worker01:~/Desktop/test-github-repo$ cd ./
+.git/                          react-component-library-lerna/
+lamda/                         testing-jira-github/
+ops-cybereye@worker01:~/Desktop/test-github-repo$ cd ./git
+bash: cd: ./git: No such file or directory
+ops-cybereye@worker01:~/Desktop/test-github-repo$ sudo cd .
+./    ../   .git/ 
+ops-cybereye@worker01:~/Desktop/test-github-repo$ sudo cd .git/
+[sudo] password for ops-cybereye: 
+sudo: cd: command not found
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git remote add origin URL
+ops-cybereye@worker01:~/Desktop/test-github-repo$ git remote add origin https://github.com/SivaDev1038/sample.git
+fatal: remote origin already exists.
+ops-cybereye@worker01:~/Desktop/test-github-repo$ ls
+lamda  react-component-library-lerna  testing-jira-github
+ops-cybereye@worker01:~/Desktop/test-github-repo$ cd testing-jira-github/
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ls
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ touch alice.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ls
+alice.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ touch bob.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ls
+alice.txt  bob.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	alice.txt
+	bob.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ vim alice.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ cat alice.txt 
+hi 
+What about your learning
+Is it going good?
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ nano bob.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ cat bob.txt 
+Hi 
+what's your name?
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git add /home/ops-cybereye/Desktop/te
+test_2_Attachments.zip  test-enterprise/        test-migration/
+test-5907/              test-github-repo/       tets/
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git add /home/ops-cybereye/Desktop/test-github-repo/testing-jira-github/alice.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git add alice.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git commit -m "message"
+[master (root-commit) 1df38d3] message
+ 1 file changed, 3 insertions(+)
+ create mode 100644 alice.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git log
+commit 1df38d3b2eef1db5867b72747ea48f9153fde25f (HEAD -> master)
+Author: ymgupta <mani@cybereye.io>
+Date:   Sat Sep 2 12:56:57 2023 +0530
+
+    message
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git remote -v
+origin	https://github.com/SivaDev1038/testing-jira-github.git (fetch)
+origin	https://github.com/SivaDev1038/testing-jira-github.git (push)
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ^C
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ^C
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ^C
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ^C
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git config --global user.name "SivaDev1038"
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git config --global user.email "shivashivaaa22@gmail.com"
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git config --global col
+color.   column.  
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git config --global color.ui auto
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git config -l
+user.email=shivashivaaa22@gmail.com
+user.name=SivaDev1038
+color.ui=auto
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/SivaDev1038/testing-jira-github.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ls
+alice.txt  bob.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git commit -m "message"
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bob.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ ls
+alice.txt  bob.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ nano alice.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ nano bob.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git commit -m "message"
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   alice.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bob.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git add alice.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git add alice.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git add bob.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git commit -m "message"
+[master 36b863d] message
+ 2 files changed, 4 insertions(+)
+ create mode 100644 bob.txt
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git log
+commit 36b863d6505ace142fddd8fb545c182290bc9c54 (HEAD -> master)
+Author: SivaDev1038 <shivashivaaa22@gmail.com>
+Date:   Sat Sep 2 14:17:17 2023 +0530
+
+    message
+
+commit 1df38d3b2eef1db5867b72747ea48f9153fde25f
+Author: ymgupta <mani@cybereye.io>
+Date:   Sat Sep 2 12:56:57 2023 +0530
+
+    message
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git diff
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git diff --staged
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git push -u origin master
+Username for 'https://github.com': SivaDev1038
+Password for 'https://SivaDev1038@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/SivaDev1038/testing-jira-github.git/'
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git push -u origin master
+Username for 'https://github.com': SivaDev1038
+Password for 'https://SivaDev1038@github.com': 
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 600 bytes | 200.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/SivaDev1038/testing-jira-github.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git pull origin master
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 737 bytes | 737.00 KiB/s, done.
+From https://github.com/SivaDev1038/testing-jira-github
+ * branch            master     -> FETCH_HEAD
+   36b863d..2f2de6a  master     -> origin/master
+Updating 36b863d..2f2de6a
+Fast-forward
+ alice.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git log
+commit 2f2de6a34927dc6ba5ded03b14d541b74a5e6fae (HEAD -> master, origin/master)
+Author: SivaDev1038 <93872451+SivaDev1038@users.noreply.github.com>
+Date:   Sat Sep 2 14:26:34 2023 +0530
+
+    Update alice.txt
+
+commit 36b863d6505ace142fddd8fb545c182290bc9c54
+Author: SivaDev1038 <shivashivaaa22@gmail.com>
+Date:   Sat Sep 2 14:17:17 2023 +0530
+
+    message
+
+commit 1df38d3b2eef1db5867b72747ea48f9153fde25f
+Author: ymgupta <mani@cybereye.io>
+Date:   Sat Sep 2 12:56:57 2023 +0530
+
+    message
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ nano alice.txt 
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   alice.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git diff
+diff --git a/alice.txt b/alice.txt
+index 5876522..3386057 100644
+--- a/alice.txt
++++ b/alice.txt
+@@ -3,3 +3,4 @@ What about your learning
+ Is it going good?
+ same way
+ my name shiva and working as Support Engineer
++this is added for 4th commit
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ git diff 1df38d3b2eef1db5867b72747ea48f9153fde25f 36b863d6505ace142fddd8fb545c182290bc9c54
+diff --git a/alice.txt b/alice.txt
+index 8056d5e..b5023d1 100644
+--- a/alice.txt
++++ b/alice.txt
+@@ -1,3 +1,4 @@
+ hi 
+ What about your learning
+ Is it going good?
++same way
+diff --git a/bob.txt b/bob.txt
+new file mode 100644
+index 0000000..de8c607
+--- /dev/null
++++ b/bob.txt
+@@ -0,0 +1,3 @@
++Hi 
++what's your name?
++I am fina and what about you?
+ops-cybereye@worker01:~/Desktop/test-github-repo/testing-jira-github$ 
